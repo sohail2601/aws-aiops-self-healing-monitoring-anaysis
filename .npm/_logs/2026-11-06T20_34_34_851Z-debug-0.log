@@ -1,0 +1,18 @@
+0 verbose cli /usr/bin/node-18 /usr/bin/npm
+1 info using npm@10.8.2
+2 info using node@v18.20.8
+3 silly config load:file:/usr/lib/nodejs18/lib/node_modules/npm/npmrc
+4 silly config load:file:/root/app/.npmrc
+5 silly config load:file:/root/.npmrc
+6 silly config load:file:/etc/npmrc
+7 verbose title npm test
+8 verbose argv "test"
+9 verbose logfile logs-max:10 dir:/root/.npm/_logs/2026-11-06T20_34_34_851Z-
+10 verbose logfile /root/.npm/_logs/2026-11-06T20_34_34_851Z-debug-0.log
+11 silly logfile done cleaning log files
+12 verbose cwd /root/app
+13 verbose os Linux 6.18.56-125.164.amzn2023.x86_64
+14 verbose node v18.20.8
+15 verbose npm  v10.8.2
+16 verbose exit 127
+17 verbose code 127

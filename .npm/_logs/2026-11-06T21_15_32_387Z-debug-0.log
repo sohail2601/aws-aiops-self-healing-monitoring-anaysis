@@ -1,0 +1,660 @@
+0 verbose cli /usr/bin/node-18 /usr/bin/npm
+1 info using npm@10.8.2
+2 info using node@v18.20.8
+3 silly config load:file:/usr/lib/nodejs18/lib/node_modules/npm/npmrc
+4 silly config load:file:/root/ai-cicd-failure-analyzer/app/.npmrc
+5 silly config load:file:/root/.npmrc
+6 silly config load:file:/etc/npmrc
+7 verbose title npm audit fix
+8 verbose argv "audit" "fix" "--omit" "dev"
+9 verbose logfile logs-max:10 dir:/root/.npm/_logs/2026-11-06T21_15_32_387Z-
+10 verbose logfile /root/.npm/_logs/2026-11-06T21_15_32_387Z-debug-0.log
+11 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+12 silly logfile done cleaning log files
+13 silly audit bulk request {
+13 silly audit   '@opentelemetry/api': [ '1.10.0' ],
+13 silly audit   accepts: [ '2.0.0' ],
+13 silly audit   'mime-db': [ '1.54.0' ],
+13 silly audit   'mime-types': [ '3.0.2' ],
+13 silly audit   bintrees: [ '1.0.2' ],
+13 silly audit   'body-parser': [ '2.4.0' ],
+13 silly audit   bytes: [ '3.1.2' ],
+13 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+13 silly audit   'call-bound': [ '1.0.4' ],
+13 silly audit   'content-disposition': [ '2.0.1' ],
+13 silly audit   'content-type': [ '2.1.0' ],
+13 silly audit   cookie: [ '0.7.2' ],
+13 silly audit   'cookie-signature': [ '1.2.2' ],
+13 silly audit   debug: [ '4.4.3' ],
+13 silly audit   depd: [ '2.0.0' ],
+13 silly audit   'dunder-proto': [ '1.0.1' ],
+13 silly audit   'ee-first': [ '1.1.1' ],
+13 silly audit   encodeurl: [ '2.0.1' ],
+13 silly audit   'es-define-property': [ '1.0.1' ],
+13 silly audit   'es-errors': [ '1.3.0' ],
+13 silly audit   'es-object-atoms': [ '1.1.2' ],
+13 silly audit   'escape-html': [ '1.0.3' ],
+13 silly audit   etag: [ '1.8.1' ],
+13 silly audit   express: [ '5.3.0' ],
+13 silly audit   finalhandler: [ '2.1.1' ],
+13 silly audit   forwarded: [ '0.2.0' ],
+13 silly audit   fresh: [ '2.0.0' ],
+13 silly audit   'function-bind': [ '1.1.2' ],
+13 silly audit   'get-intrinsic': [ '1.3.0' ],
+13 silly audit   'get-proto': [ '1.0.1' ],
+13 silly audit   gopd: [ '1.2.0' ],
+13 silly audit   'has-symbols': [ '1.1.0' ],
+13 silly audit   hasown: [ '2.0.4' ],
+13 silly audit   'http-errors': [ '2.0.1' ],
+13 silly audit   'iconv-lite': [ '0.7.3' ],
+13 silly audit   inherits: [ '2.0.4' ],
+13 silly audit   'ipaddr.js': [ '1.9.1' ],
+13 silly audit   'is-promise': [ '4.0.0' ],
+13 silly audit   'math-intrinsics': [ '1.1.0' ],
+13 silly audit   'media-typer': [ '1.1.1' ],
+13 silly audit   'merge-descriptors': [ '2.0.0' ],
+13 silly audit   ms: [ '2.1.3' ],
+13 silly audit   negotiator: [ '1.1.0' ],
+13 silly audit   'object-inspect': [ '1.13.4' ],
+13 silly audit   'on-finished': [ '2.4.2' ],
+13 silly audit   once: [ '1.4.0' ],
+13 silly audit   parseurl: [ '1.3.3' ],
+13 silly audit   'path-to-regexp': [ '8.4.2' ],
+13 silly audit   'prom-client': [ '15.1.3' ],
+13 silly audit   'proxy-addr': [ '2.0.8' ],
+13 silly audit   qs: [ '6.17.1' ],
+13 silly audit   'range-parser': [ '1.3.0' ],
+13 silly audit   'raw-body': [ '3.0.2' ],
+13 silly audit   router: [ '2.2.0' ],
+13 silly audit   'safer-buffer': [ '2.1.2' ],
+13 silly audit   send: [ '1.2.1' ],
+13 silly audit   'serve-static': [ '2.2.1' ],
+13 silly audit   setprototypeof: [ '1.2.0' ],
+13 silly audit   'side-channel': [ '1.1.1' ],
+13 silly audit   'side-channel-list': [ '1.0.1' ],
+13 silly audit   'side-channel-map': [ '1.0.1' ],
+13 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+13 silly audit   statuses: [ '2.0.2' ],
+13 silly audit   tdigest: [ '0.1.3' ],
+13 silly audit   toidentifier: [ '1.0.1' ],
+13 silly audit   'type-is': [ '2.1.0' ],
+13 silly audit   unpipe: [ '1.0.0' ],
+13 silly audit   vary: [ '1.1.2' ],
+13 silly audit   wrappy: [ '1.0.2' ]
+13 silly audit }
+14 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 263ms
+15 silly audit report {}
+16 silly idealTree buildDeps
+17 silly reify moves {}
+18 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/@babel/code-frame' ]
+19 silly reify mark deleted [
+19 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/@babel/compat-data'
+19 silly reify ]
+20 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/@babel/core' ]
+21 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/@babel/generator' ]
+22 silly reify mark deleted [
+22 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/@babel/helper-compilation-targets'
+22 silly reify ]
+23 silly reify mark deleted [
+23 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/@babel/helper-globals'
+23 silly reify ]
+24 silly reify mark deleted [
+24 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/@babel/helper-module-imports'
+24 silly reify ]
+25 silly reify mark deleted [
+25 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/@babel/helper-module-transforms'
+25 silly reify ]
+26 silly reify mark deleted [
+26 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/@babel/helper-plugin-utils'
+26 silly reify ]
+27 silly reify mark deleted [
+27 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/@babel/helper-string-parser'
+27 silly reify ]
+28 silly reify mark deleted [
+28 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/@babel/helper-validator-identifier'
+28 silly reify ]
+29 silly reify mark deleted [
+29 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/@babel/helper-validator-option'
+29 silly reify ]
+30 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/@babel/helpers' ]
+31 silly reify mark deleted [
+31 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/@babel/parser',
+31 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/.bin/parser'
+31 silly reify ]
+32 silly reify mark deleted [
+32 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/@babel/plugin-syntax-async-generators'
+32 silly reify ]
+33 silly reify mark deleted [
+33 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/@babel/plugin-syntax-bigint'
+33 silly reify ]
+34 silly reify mark deleted [
+34 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/@babel/plugin-syntax-class-properties'
+34 silly reify ]
+35 silly reify mark deleted [
+35 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/@babel/plugin-syntax-class-static-block'
+35 silly reify ]
+36 silly reify mark deleted [
+36 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/@babel/plugin-syntax-import-attributes'
+36 silly reify ]
+37 silly reify mark deleted [
+37 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/@babel/plugin-syntax-import-meta'
+37 silly reify ]
+38 silly reify mark deleted [
+38 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/@babel/plugin-syntax-json-strings'
+38 silly reify ]
+39 silly reify mark deleted [
+39 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/@babel/plugin-syntax-jsx'
+39 silly reify ]
+40 silly reify mark deleted [
+40 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/@babel/plugin-syntax-logical-assignment-operators'
+40 silly reify ]
+41 silly reify mark deleted [
+41 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/@babel/plugin-syntax-nullish-coalescing-operator'
+41 silly reify ]
+42 silly reify mark deleted [
+42 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/@babel/plugin-syntax-numeric-separator'
+42 silly reify ]
+43 silly reify mark deleted [
+43 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/@babel/plugin-syntax-object-rest-spread'
+43 silly reify ]
+44 silly reify mark deleted [
+44 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/@babel/plugin-syntax-optional-catch-binding'
+44 silly reify ]
+45 silly reify mark deleted [
+45 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/@babel/plugin-syntax-optional-chaining'
+45 silly reify ]
+46 silly reify mark deleted [
+46 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/@babel/plugin-syntax-private-property-in-object'
+46 silly reify ]
+47 silly reify mark deleted [
+47 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/@babel/plugin-syntax-top-level-await'
+47 silly reify ]
+48 silly reify mark deleted [
+48 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/@babel/plugin-syntax-typescript'
+48 silly reify ]
+49 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/@babel/template' ]
+50 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/@babel/traverse' ]
+51 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/@babel/types' ]
+52 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/@bcoe/v8-coverage' ]
+53 silly reify mark deleted [
+53 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/@istanbuljs/load-nyc-config'
+53 silly reify ]
+54 silly reify mark deleted [
+54 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/@istanbuljs/schema'
+54 silly reify ]
+55 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/@jest/console' ]
+56 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/@jest/core' ]
+57 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/@jest/environment' ]
+58 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/@jest/expect' ]
+59 silly reify mark deleted [
+59 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/@jest/expect-utils'
+59 silly reify ]
+60 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/@jest/fake-timers' ]
+61 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/@jest/globals' ]
+62 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/@jest/reporters' ]
+63 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/@jest/schemas' ]
+64 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/@jest/source-map' ]
+65 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/@jest/test-result' ]
+66 silly reify mark deleted [
+66 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/@jest/test-sequencer'
+66 silly reify ]
+67 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/@jest/transform' ]
+68 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/@jest/types' ]
+69 silly reify mark deleted [
+69 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/@jridgewell/gen-mapping'
+69 silly reify ]
+70 silly reify mark deleted [
+70 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/@jridgewell/remapping'
+70 silly reify ]
+71 silly reify mark deleted [
+71 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/@jridgewell/resolve-uri'
+71 silly reify ]
+72 silly reify mark deleted [
+72 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/@jridgewell/sourcemap-codec'
+72 silly reify ]
+73 silly reify mark deleted [
+73 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/@jridgewell/trace-mapping'
+73 silly reify ]
+74 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/@noble/hashes' ]
+75 silly reify mark deleted [
+75 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/@paralleldrive/cuid2'
+75 silly reify ]
+76 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/@sinclair/typebox' ]
+77 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/@sinonjs/commons' ]
+78 silly reify mark deleted [
+78 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/@sinonjs/fake-timers'
+78 silly reify ]
+79 silly reify mark deleted [
+79 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/@types/babel__core'
+79 silly reify ]
+80 silly reify mark deleted [
+80 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/@types/babel__generator'
+80 silly reify ]
+81 silly reify mark deleted [
+81 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/@types/babel__template'
+81 silly reify ]
+82 silly reify mark deleted [
+82 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/@types/babel__traverse'
+82 silly reify ]
+83 silly reify mark deleted [
+83 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/@types/graceful-fs'
+83 silly reify ]
+84 silly reify mark deleted [
+84 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/@types/istanbul-lib-coverage'
+84 silly reify ]
+85 silly reify mark deleted [
+85 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/@types/istanbul-lib-report'
+85 silly reify ]
+86 silly reify mark deleted [
+86 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/@types/istanbul-reports'
+86 silly reify ]
+87 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/@types/node' ]
+88 silly reify mark deleted [
+88 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/@types/stack-utils'
+88 silly reify ]
+89 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/@types/yargs' ]
+90 silly reify mark deleted [
+90 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/@types/yargs-parser'
+90 silly reify ]
+91 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/ansi-escapes' ]
+92 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/ansi-regex' ]
+93 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/ansi-styles' ]
+94 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/anymatch' ]
+95 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/argparse' ]
+96 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/asap' ]
+97 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/asynckit' ]
+98 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/babel-jest' ]
+99 silly reify mark deleted [
+99 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/babel-plugin-istanbul'
+99 silly reify ]
+100 silly reify mark deleted [
+100 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/babel-plugin-istanbul/node_modules/istanbul-lib-instrument'
+100 silly reify ]
+101 silly reify mark deleted [
+101 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/babel-plugin-jest-hoist'
+101 silly reify ]
+102 silly reify mark deleted [
+102 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/babel-preset-current-node-syntax'
+102 silly reify ]
+103 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/babel-preset-jest' ]
+104 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/balanced-match' ]
+105 silly reify mark deleted [
+105 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/baseline-browser-mapping',
+105 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/.bin/baseline-browser-mapping'
+105 silly reify ]
+106 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/brace-expansion' ]
+107 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/braces' ]
+108 silly reify mark deleted [
+108 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/browserslist',
+108 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/.bin/browserslist'
+108 silly reify ]
+109 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/bser' ]
+110 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/buffer-from' ]
+111 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/callsites' ]
+112 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/camelcase' ]
+113 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/caniuse-lite' ]
+114 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/chalk' ]
+115 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/char-regex' ]
+116 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/ci-info' ]
+117 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/cjs-module-lexer' ]
+118 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/cliui' ]
+119 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/co' ]
+120 silly reify mark deleted [
+120 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/collect-v8-coverage'
+120 silly reify ]
+121 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/color-convert' ]
+122 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/color-name' ]
+123 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/combined-stream' ]
+124 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/component-emitter' ]
+125 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/concat-map' ]
+126 silly reify mark deleted [
+126 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/convert-source-map'
+126 silly reify ]
+127 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/cookiejar' ]
+128 silly reify mark deleted [
+128 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/create-jest',
+128 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/.bin/create-jest'
+128 silly reify ]
+129 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/cross-spawn' ]
+130 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/dedent' ]
+131 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/deepmerge' ]
+132 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/delayed-stream' ]
+133 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/detect-newline' ]
+134 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/dezalgo' ]
+135 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/diff-sequences' ]
+136 silly reify mark deleted [
+136 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/electron-to-chromium'
+136 silly reify ]
+137 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/emittery' ]
+138 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/emoji-regex' ]
+139 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/error-ex' ]
+140 silly reify mark deleted [
+140 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/es-set-tostringtag'
+140 silly reify ]
+141 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/escalade' ]
+142 silly reify mark deleted [
+142 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/escape-string-regexp'
+142 silly reify ]
+143 silly reify mark deleted [
+143 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/esprima',
+143 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/.bin/esparse',
+143 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/.bin/esvalidate'
+143 silly reify ]
+144 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/execa' ]
+145 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/exit' ]
+146 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/expect' ]
+147 silly reify mark deleted [
+147 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/fast-json-stable-stringify'
+147 silly reify ]
+148 silly reify mark deleted [
+148 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/fast-safe-stringify'
+148 silly reify ]
+149 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/fb-watchman' ]
+150 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/fill-range' ]
+151 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/find-up' ]
+152 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/form-data' ]
+153 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/formidable' ]
+154 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/fs.realpath' ]
+155 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/fsevents' ]
+156 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/gensync' ]
+157 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/get-caller-file' ]
+158 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/get-package-type' ]
+159 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/get-stream' ]
+160 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/glob' ]
+161 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/graceful-fs' ]
+162 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/has-flag' ]
+163 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/has-tostringtag' ]
+164 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/html-escaper' ]
+165 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/human-signals' ]
+166 silly reify mark deleted [
+166 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/import-local',
+166 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/.bin/import-local-fixture'
+166 silly reify ]
+167 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/imurmurhash' ]
+168 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/inflight' ]
+169 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/is-arrayish' ]
+170 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/is-core-module' ]
+171 silly reify mark deleted [
+171 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/is-fullwidth-code-point'
+171 silly reify ]
+172 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/is-generator-fn' ]
+173 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/is-number' ]
+174 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/is-stream' ]
+175 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/isexe' ]
+176 silly reify mark deleted [
+176 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/istanbul-lib-coverage'
+176 silly reify ]
+177 silly reify mark deleted [
+177 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/istanbul-lib-instrument'
+177 silly reify ]
+178 silly reify mark deleted [
+178 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/istanbul-lib-instrument/node_modules/semver',
+178 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/istanbul-lib-instrument/node_modules/.bin/semver'
+178 silly reify ]
+179 silly reify mark deleted [
+179 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/istanbul-lib-report'
+179 silly reify ]
+180 silly reify mark deleted [
+180 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/istanbul-lib-source-maps'
+180 silly reify ]
+181 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/istanbul-reports' ]
+182 silly reify mark deleted [
+182 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/jest',
+182 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/.bin/jest'
+182 silly reify ]
+183 silly reify mark deleted [
+183 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/jest-changed-files'
+183 silly reify ]
+184 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/jest-circus' ]
+185 silly reify mark deleted [
+185 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/jest-cli',
+185 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/.bin/jest'
+185 silly reify ]
+186 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/jest-config' ]
+187 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/jest-diff' ]
+188 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/jest-docblock' ]
+189 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/jest-each' ]
+190 silly reify mark deleted [
+190 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/jest-environment-node'
+190 silly reify ]
+191 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/jest-get-type' ]
+192 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/jest-haste-map' ]
+193 silly reify mark deleted [
+193 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/jest-leak-detector'
+193 silly reify ]
+194 silly reify mark deleted [
+194 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/jest-matcher-utils'
+194 silly reify ]
+195 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/jest-message-util' ]
+196 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/jest-mock' ]
+197 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/jest-pnp-resolver' ]
+198 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/jest-regex-util' ]
+199 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/jest-resolve' ]
+200 silly reify mark deleted [
+200 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/jest-resolve-dependencies'
+200 silly reify ]
+201 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/jest-runner' ]
+202 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/jest-runtime' ]
+203 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/jest-snapshot' ]
+204 silly reify mark deleted [
+204 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/jest-snapshot/node_modules/semver',
+204 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/jest-snapshot/node_modules/.bin/semver'
+204 silly reify ]
+205 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/jest-util' ]
+206 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/jest-validate' ]
+207 silly reify mark deleted [
+207 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/jest-validate/node_modules/camelcase'
+207 silly reify ]
+208 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/jest-watcher' ]
+209 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/jest-worker' ]
+210 silly reify mark deleted [
+210 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/jest-worker/node_modules/supports-color'
+210 silly reify ]
+211 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/js-tokens' ]
+212 silly reify mark deleted [
+212 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/js-yaml',
+212 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/.bin/js-yaml'
+212 silly reify ]
+213 silly reify mark deleted [
+213 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/jsesc',
+213 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/.bin/jsesc'
+213 silly reify ]
+214 silly reify mark deleted [
+214 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/json-parse-even-better-errors'
+214 silly reify ]
+215 silly reify mark deleted [
+215 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/json5',
+215 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/.bin/json5'
+215 silly reify ]
+216 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/kleur' ]
+217 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/leven' ]
+218 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/lines-and-columns' ]
+219 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/locate-path' ]
+220 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/lru-cache' ]
+221 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/make-dir' ]
+222 silly reify mark deleted [
+222 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/make-dir/node_modules/semver',
+222 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/make-dir/node_modules/.bin/semver'
+222 silly reify ]
+223 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/makeerror' ]
+224 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/merge-stream' ]
+225 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/methods' ]
+226 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/micromatch' ]
+227 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/mime-db' ]
+228 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/mime-types' ]
+229 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/mimic-fn' ]
+230 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/minimatch' ]
+231 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/natural-compare' ]
+232 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/node-int64' ]
+233 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/node-releases' ]
+234 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/normalize-path' ]
+235 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/npm-run-path' ]
+236 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/onetime' ]
+237 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/p-limit' ]
+238 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/p-locate' ]
+239 silly reify mark deleted [
+239 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/p-locate/node_modules/p-limit'
+239 silly reify ]
+240 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/p-try' ]
+241 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/parse-json' ]
+242 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/path-exists' ]
+243 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/path-is-absolute' ]
+244 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/path-key' ]
+245 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/path-parse' ]
+246 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/picocolors' ]
+247 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/picomatch' ]
+248 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/pirates' ]
+249 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/pkg-dir' ]
+250 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/pretty-format' ]
+251 silly reify mark deleted [
+251 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/pretty-format/node_modules/ansi-styles'
+251 silly reify ]
+252 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/prompts' ]
+253 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/pure-rand' ]
+254 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/react-is' ]
+255 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/require-directory' ]
+256 silly reify mark deleted [
+256 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/resolve',
+256 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/.bin/resolve'
+256 silly reify ]
+257 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/resolve-cwd' ]
+258 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/resolve-from' ]
+259 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/resolve.exports' ]
+260 silly reify mark deleted [
+260 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/semver',
+260 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/.bin/semver'
+260 silly reify ]
+261 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/shebang-command' ]
+262 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/shebang-regex' ]
+263 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/signal-exit' ]
+264 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/sisteransi' ]
+265 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/slash' ]
+266 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/source-map' ]
+267 silly reify mark deleted [
+267 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/source-map-support'
+267 silly reify ]
+268 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/sprintf-js' ]
+269 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/stack-utils' ]
+270 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/string-length' ]
+271 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/string-width' ]
+272 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/strip-ansi' ]
+273 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/strip-bom' ]
+274 silly reify mark deleted [
+274 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/strip-final-newline'
+274 silly reify ]
+275 silly reify mark deleted [
+275 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/strip-json-comments'
+275 silly reify ]
+276 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/superagent' ]
+277 silly reify mark deleted [
+277 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/superagent/node_modules/mime',
+277 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/superagent/node_modules/.bin/mime'
+277 silly reify ]
+278 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/supertest' ]
+279 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/supports-color' ]
+280 silly reify mark deleted [
+280 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/supports-preserve-symlinks-flag'
+280 silly reify ]
+281 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/test-exclude' ]
+282 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/tmpl' ]
+283 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/to-regex-range' ]
+284 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/type-detect' ]
+285 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/type-fest' ]
+286 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/undici-types' ]
+287 silly reify mark deleted [
+287 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/update-browserslist-db',
+287 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/.bin/update-browserslist-db'
+287 silly reify ]
+288 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/v8-to-istanbul' ]
+289 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/walker' ]
+290 silly reify mark deleted [
+290 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/which',
+290 silly reify   '/root/ai-cicd-failure-analyzer/app/node_modules/.bin/node-which'
+290 silly reify ]
+291 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/wrap-ansi' ]
+292 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/write-file-atomic' ]
+293 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/y18n' ]
+294 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/yallist' ]
+295 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/yargs' ]
+296 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/yargs-parser' ]
+297 silly reify mark deleted [ '/root/ai-cicd-failure-analyzer/app/node_modules/yocto-queue' ]
+298 silly audit bulk request {
+298 silly audit   '@opentelemetry/api': [ '1.10.0' ],
+298 silly audit   accepts: [ '2.0.0' ],
+298 silly audit   'mime-db': [ '1.54.0' ],
+298 silly audit   'mime-types': [ '3.0.2' ],
+298 silly audit   bintrees: [ '1.0.2' ],
+298 silly audit   'body-parser': [ '2.4.0' ],
+298 silly audit   bytes: [ '3.1.2' ],
+298 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+298 silly audit   'call-bound': [ '1.0.4' ],
+298 silly audit   'content-disposition': [ '2.0.1' ],
+298 silly audit   'content-type': [ '2.1.0' ],
+298 silly audit   cookie: [ '0.7.2' ],
+298 silly audit   'cookie-signature': [ '1.2.2' ],
+298 silly audit   debug: [ '4.4.3' ],
+298 silly audit   depd: [ '2.0.0' ],
+298 silly audit   'dunder-proto': [ '1.0.1' ],
+298 silly audit   'ee-first': [ '1.1.1' ],
+298 silly audit   encodeurl: [ '2.0.1' ],
+298 silly audit   'es-define-property': [ '1.0.1' ],
+298 silly audit   'es-errors': [ '1.3.0' ],
+298 silly audit   'es-object-atoms': [ '1.1.2' ],
+298 silly audit   'escape-html': [ '1.0.3' ],
+298 silly audit   etag: [ '1.8.1' ],
+298 silly audit   express: [ '5.3.0' ],
+298 silly audit   finalhandler: [ '2.1.1' ],
+298 silly audit   forwarded: [ '0.2.0' ],
+298 silly audit   fresh: [ '2.0.0' ],
+298 silly audit   'function-bind': [ '1.1.2' ],
+298 silly audit   'get-intrinsic': [ '1.3.0' ],
+298 silly audit   'get-proto': [ '1.0.1' ],
+298 silly audit   gopd: [ '1.2.0' ],
+298 silly audit   'has-symbols': [ '1.1.0' ],
+298 silly audit   hasown: [ '2.0.4' ],
+298 silly audit   'http-errors': [ '2.0.1' ],
+298 silly audit   'iconv-lite': [ '0.7.3' ],
+298 silly audit   inherits: [ '2.0.4' ],
+298 silly audit   'ipaddr.js': [ '1.9.1' ],
+298 silly audit   'is-promise': [ '4.0.0' ],
+298 silly audit   'math-intrinsics': [ '1.1.0' ],
+298 silly audit   'media-typer': [ '1.1.1' ],
+298 silly audit   'merge-descriptors': [ '2.0.0' ],
+298 silly audit   ms: [ '2.1.3' ],
+298 silly audit   negotiator: [ '1.1.0' ],
+298 silly audit   'object-inspect': [ '1.13.4' ],
+298 silly audit   'on-finished': [ '2.4.2' ],
+298 silly audit   once: [ '1.4.0' ],
+298 silly audit   parseurl: [ '1.3.3' ],
+298 silly audit   'path-to-regexp': [ '8.4.2' ],
+298 silly audit   'prom-client': [ '15.1.3' ],
+298 silly audit   'proxy-addr': [ '2.0.8' ],
+298 silly audit   qs: [ '6.17.1' ],
+298 silly audit   'range-parser': [ '1.3.0' ],
+298 silly audit   'raw-body': [ '3.0.2' ],
+298 silly audit   router: [ '2.2.0' ],
+298 silly audit   'safer-buffer': [ '2.1.2' ],
+298 silly audit   send: [ '1.2.1' ],
+298 silly audit   'serve-static': [ '2.2.1' ],
+298 silly audit   setprototypeof: [ '1.2.0' ],
+298 silly audit   'side-channel': [ '1.1.1' ],
+298 silly audit   'side-channel-list': [ '1.0.1' ],
+298 silly audit   'side-channel-map': [ '1.0.1' ],
+298 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+298 silly audit   statuses: [ '2.0.2' ],
+298 silly audit   tdigest: [ '0.1.3' ],
+298 silly audit   toidentifier: [ '1.0.1' ],
+298 silly audit   'type-is': [ '2.1.0' ],
+298 silly audit   unpipe: [ '1.0.0' ],
+298 silly audit   vary: [ '1.1.2' ],
+298 silly audit   wrappy: [ '1.0.2' ]
+298 silly audit }
+299 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 229ms
+300 silly audit report {}
+301 silly ADD
+302 verbose cwd /root/ai-cicd-failure-analyzer/app
+303 verbose os Linux 6.18.56-125.164.amzn2023.x86_64
+304 verbose node v18.20.8
+305 verbose npm  v10.8.2
+306 verbose exit 0
+307 info ok

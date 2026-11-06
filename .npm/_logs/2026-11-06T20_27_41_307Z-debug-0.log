@@ -1,0 +1,29 @@
+0 verbose cli /usr/bin/node-18 /usr/bin/npm
+1 info using npm@10.8.2
+2 info using node@v18.20.8
+3 silly config load:file:/usr/lib/nodejs18/lib/node_modules/npm/npmrc
+4 silly config load:file:/root/.npmrc
+5 silly config load:file:/etc/npmrc
+6 verbose title npm install
+7 verbose argv "install"
+8 verbose logfile logs-max:10 dir:/root/.npm/_logs/2026-11-06T20_27_41_307Z-
+9 verbose logfile /root/.npm/_logs/2026-11-06T20_27_41_307Z-debug-0.log
+10 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+11 silly logfile done cleaning log files
+12 silly idealTree buildDeps
+13 silly reify moves {}
+14 verbose stack Error: Could not read package.json: Error: ENOENT: no such file or directory, open '/root/package.json'
+15 error code ENOENT
+16 error syscall open
+17 error path /root/package.json
+18 error errno -2
+19 error enoent Could not read package.json: Error: ENOENT: no such file or directory, open '/root/package.json'
+20 error enoent This is related to npm not being able to find a file.
+20 error enoent
+21 verbose cwd /root
+22 verbose os Linux 6.18.56-125.164.amzn2023.x86_64
+23 verbose node v18.20.8
+24 verbose npm  v10.8.2
+25 verbose exit -2
+26 verbose code -2
+27 error A complete log of this run can be found in: /root/.npm/_logs/2026-11-06T20_27_41_307Z-debug-0.log

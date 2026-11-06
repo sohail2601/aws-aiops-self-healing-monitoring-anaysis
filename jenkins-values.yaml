@@ -1,0 +1,38 @@
+controller:
+  serviceType: LoadBalancer
+
+  admin:
+    username: admin
+    password: admin123
+
+  resources:
+    requests:
+      cpu: "500m"
+      memory: "1Gi"
+    limits:
+      cpu: "2"
+      memory: "4Gi"
+
+  installPlugins:
+    - kubernetes:latest
+    - workflow-aggregator:latest
+    - git:latest
+    - credentials-binding:latest
+    - pipeline-stage-view:latest
+    - prometheus:latest
+    - configuration-as-code:latest
+    - blueocean:latest
+
+  prometheus:
+    enabled: true
+
+persistence:
+  enabled: true
+  size: 20Gi
+
+rbac:
+  create: true
+
+serviceAccount:
+  create: true
+  name: jenkins
